@@ -1,9 +1,9 @@
 
-
+let b=document.getElementById("p")
 let x = document.getElementById("button1")
 
 x.addEventListener("click",()=>{
-  x.textContent="hello"
+  b.textContent="hello"
 })
 
 
@@ -11,26 +11,27 @@ x.addEventListener("click",()=>{
 let y = document.getElementById("button2")
 
 y.addEventListener("click",()=>{
-   y.style.fontSize="20px";
+b.textContent="tuwaiq"
+   b.style.fontSize="20px";
 })
 
 let z = document.getElementById("button3")
 
 z.addEventListener("click",()=>{
-   z.style.fontSize="5px";
+   b.style.fontSize="5px";
 })
 
 
 let p = document.getElementById("button4")
 
 p.addEventListener("click",()=>{
-   p.style.color="brown";
+   b.style.color="brown";
 })
 
 let w = document.getElementById("button5")
 
 w.addEventListener("click",()=>{
-   w.style.background="black";
+   b.style.background="black";
 })
 
 
